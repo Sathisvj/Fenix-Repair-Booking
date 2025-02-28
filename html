@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FENIXGADGETSACRE - Repair Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .whatsapp {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .whatsapp a {
+            text-decoration: none;
+            color: #25D366;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Fenixgadgetscare Repair Booking</h2>
+        <form action="https://formsubmit.co/fenixgadgetscare@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+            <label for="device">Select Device</label>
+            <select id="device" name="device" required>
+                <option value="">-- Choose --</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Laptop">Laptop</option>
+                <option value="Tablet">Tablet</option>
+            </select>
+            
+            <label for="issue">Describe the Issue</label>
+            <textarea id="issue" name="issue" rows="3" required></textarea>
+            
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="date">Preferred Repair Date</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Book Repair</button>
+        </form>
+        
+        <div class="whatsapp">
+            <p>Need help? <a href="https://wa.me/919566886679" target="_blank"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></p>
+        </div>
+    </div>
+</body>
+</html>
